@@ -8,19 +8,11 @@ import { Timestamp } from '../vueuse/useTimestamp'
 import { Draggable } from '../vueuse/useDraggable'
 import { Head } from '../vueuse-head/head'
 import { Query } from '../villus/useQuery'
-import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom';
 
 function HomePage() {
 	const c = useState(0)[0]
 	const [show, setShow] = useState(true)
-	
-	const navigate = useNavigate()
-	
-	function onGoToPageB(): void {
-		window.scrollTo(0, 0)
-		navigate('pageB')
-	}
 	
 	return (
 		<div>
