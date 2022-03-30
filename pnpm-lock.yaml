@@ -14,7 +14,7 @@ specifiers:
   react: ^17.0.2
   react-dom: ^17.0.2
   react-router-dom: ^6.2.2
-  reactivue: beta
+  reactivue: ^1.0.0-beta.6
   unocss: ^0.26.2
   villus: ^1.0.1
   vite: ^2.8.4
@@ -29,7 +29,7 @@ dependencies:
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-router-dom: 6.2.2_react-dom@17.0.2+react@17.0.2
-  reactivue: 1.0.0-beta.4
+  reactivue: 1.0.0-beta.6
   villus: 1.0.1_graphql@16.3.0+vue@3.2.31
   vue: 3.2.31
 
@@ -1448,8 +1448,8 @@ packages:
       object-assign: 4.1.1
     dev: false
 
-  /reactivue/1.0.0-beta.4:
-    resolution: {integrity: sha512-gp5fusQvm0/DUp9g6xLoo67VeCXYnweKeAHBE5C1n7cYH4m4FWE1F9PT33lqqYh/N+8GeQ6cwSMDOhPeBttDRw==}
+  /reactivue/1.0.0-beta.6:
+    resolution: {integrity: sha512-mKzNi2D7WrV84uc5W6oy9DsAzK81zLpLNo+ycNbypXM7wYfyGP/RPjDILolfi2ajORxWY3pbDxb681l97O9udg==}
     hasBin: true
     requiresBuild: true
     dev: false
